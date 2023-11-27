@@ -13,6 +13,7 @@
 		2A6DE01F2B0F0C5B003B7747 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A6DE01E2B0F0C5B003B7747 /* Assets.xcassets */; };
 		2A6DE0222B0F0C5B003B7747 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A6DE0212B0F0C5B003B7747 /* Preview Assets.xcassets */; };
 		2A6DE0292B0F0DED003B7747 /* EditUserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A6DE0282B0F0DED003B7747 /* EditUserView.swift */; };
+		2A9D06452B1508FB00B04DBB /* UsersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A9D06442B1508FB00B04DBB /* UsersView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		2A6DE01E2B0F0C5B003B7747 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2A6DE0212B0F0C5B003B7747 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		2A6DE0282B0F0DED003B7747 /* EditUserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditUserView.swift; sourceTree = "<group>"; };
+		2A9D06442B1508FB00B04DBB /* UsersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 			children = (
 				2A6DE0182B0F0C59003B7747 /* SwiftDataProjectApp.swift */,
 				2A6DE01A2B0F0C59003B7747 /* ContentView.swift */,
+				2A9D06442B1508FB00B04DBB /* UsersView.swift */,
 				2A6DE01C2B0F0C59003B7747 /* User.swift */,
 				2A6DE01E2B0F0C5B003B7747 /* Assets.xcassets */,
 				2A6DE0202B0F0C5B003B7747 /* Preview Content */,
@@ -143,6 +146,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2A9D06452B1508FB00B04DBB /* UsersView.swift in Sources */,
 				2A6DE01B2B0F0C59003B7747 /* ContentView.swift in Sources */,
 				2A6DE0292B0F0DED003B7747 /* EditUserView.swift in Sources */,
 				2A6DE01D2B0F0C59003B7747 /* User.swift in Sources */,
