@@ -10,14 +10,14 @@ import SwiftData
 
 @Model
 final class User {
-  var name: String
-  var city: String
+  var name: String = "Anonymous"
+  var city: String = "Unknown"
   var joinDate: Date
   // var jobs = [Job]() // can be done w/o Relationship macro
   // deleteRule
   // nullify deletes and leaves jobs
   // cascade will delete jobs
-  @Relationship(deleteRule: .cascade) var jobs = [Job]()
+  @Relationship(deleteRule: .cascade) var jobs : [Job]? = [Job]()
     
   init(name: String, city: String, joinDate: Date) {
     self.name = name
