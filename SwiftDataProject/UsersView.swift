@@ -19,7 +19,7 @@ struct UsersView: View {
         
         Spacer()
         
-        Text(String(user.jobs?.count ?? 0))
+        Text(String(user.unwrappedJobs.count))
           .fontWeight(.black)
           .padding(.horizontal, 10)
           .padding(.vertical, 5)
